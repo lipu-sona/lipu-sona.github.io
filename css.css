@@ -1,0 +1,69 @@
+:root {
+	--bg-color: #092e37;
+	--hl-color: #ababab;
+	--ac-color: #659fad;
+	--fg-color: #ffffff;
+}
+
+body {
+	margin: 0;
+	background-color: var(--bg-color);
+	background-image: url("bg.png");
+	background-size: 191px 137px;
+	background-repeat: repeat;
+	font-family: "Palatino Linotype", "Book Antiqua", serif;
+	color: var(--fg-color);
+	text-align: center;
+	font-size: 1.7vw;
+	line-height: 2.7vw; 
+}
+
+.header {
+	display: inline-block;
+	width: 100%;
+	background-color: var(--fg-color);
+	color: var(--ac-color);
+	text-transform: uppercase;
+	letter-spacing: 0.7vw;
+	font-family: 'Leelawadee UI';
+	font-weight: bold;
+	line-height: 4.5vw;
+}
+.nav {
+	display: flex;
+	float: right;
+}
+
+.section {
+	display: inline-block;
+	padding: 0vw 2vw;
+	float: left;
+}
+.section:hover {
+	background-color: var(--hl-color);
+	color: var(--bg-color);
+}
+
+.content {
+	display: inline-block;
+	width: 75vw;
+	height: calc(100vh - 4.5vw);
+	margin: auto;
+	background-color: var(--bg-color);
+}
+.mainpage-logo {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+.mainpage-text {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	float: right;
+	width: 60%;
+	height: 100%;
+}
