@@ -1,8 +1,10 @@
 :root {
 	--bg-color: #092e37;
-	--hl-color: #ababab;
+	--hl-color: #e8f1f3;
 	--ac-color: #659fad;
 	--fg-color: #ffffff;
+	--serif-font: "Gentium Plus", "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
+	--sans-font: "Leelawadee UI", "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
 }
 
 body {
@@ -11,11 +13,11 @@ body {
 	background-image: url("bg.png");
 	background-size: 191px 137px;
 	background-repeat: repeat;
-	font-family: "Palatino Linotype", "Book Antiqua", serif;
+	font-family: var(--sans-font);
 	color: var(--fg-color);
 	text-align: center;
-	font-size: 1.7vw;
-	line-height: 2.7vw; 
+	font-size: 28px;
+	line-height: 45px; 
 }
 
 .header {
@@ -24,10 +26,10 @@ body {
 	background-color: var(--fg-color);
 	color: var(--ac-color);
 	text-transform: uppercase;
-	letter-spacing: 0.7vw;
-	font-family: 'Leelawadee UI';
+	letter-spacing: 11px;
+	font-family: var(--sans-font);
 	font-weight: bold;
-	line-height: 4.5vw;
+	line-height: 72px;
 }
 .nav {
 	display: flex;
@@ -36,18 +38,18 @@ body {
 
 .section {
 	display: inline-block;
-	padding: 0vw 2vw;
+	padding: 0 30px;
 	float: left;
 }
 .section:hover {
 	background-color: var(--hl-color);
-	color: var(--bg-color);
+	color: var(--ac-color);
 }
 
 .content {
 	display: inline-block;
-	width: 75vw;
-	height: calc(100vh - 4.5vw);
+	max-width: 1200px;
+	height: calc(100vh - 72px);
 	margin: auto;
 	background-color: var(--bg-color);
 }
