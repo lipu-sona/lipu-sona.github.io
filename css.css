@@ -51,8 +51,6 @@ h3 { font-size: 28px; }
 	margin: auto;
 	background-color: var(--main-bg-color);
 	box-shadow: 0px 0 30px 0px #000000ff;
-	position: relative;
-	z-index: -1;
 }
 body.dark-mode .content {
 	box-shadow: 20px 0 30px 0px #000000ff, -20px 0 30px 0px #000000ff;
@@ -83,12 +81,11 @@ a {
 	margin: 20px;
 	padding: 20px;
 	
-	border-top: 5px solid var(--opposite-bg-color);
-	border-left: 5px solid var(--opposite-bg-color);
-	border-bottom: 20px solid var(--opposite-bg-color);
-	border-right: 30px solid var(--opposite-bg-color);
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
+	border-top: 3px solid var(--opposite-bg-color);
+	border-left: 3px solid var(--opposite-bg-color);
+	border-bottom: 9px solid var(--opposite-bg-color);
+	border-right: 20px solid var(--opposite-bg-color);
+	border-radius: 20px;
 	vertical-align: top;
 }
 
@@ -104,6 +101,8 @@ a {
 	font-weight: bold;
 	line-height: 72px;
 	font-size: 28px;
+	position: relative;
+
 }
 .nav {
 	display: flex;
