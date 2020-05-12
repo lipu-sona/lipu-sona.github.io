@@ -10,11 +10,11 @@ body:not(.dark-mode) {
 	--highlight-bg-color: #e8f1f3;
 }
 body.dark-mode {
-	--main-bg-color: #000000;
+	--main-bg-color: #09080e;
 	--highlight-bg-color: #eeeeee;
-	--opposite-bg-color: #ffffff;
-	--main-txt-color: #ffffff;
-	--opposite-txt-color: #444444;
+	--opposite-bg-color: #dddddd;
+	--main-txt-color: #cccccc;
+	--opposite-txt-color: #050833;
 }
 
 body {
