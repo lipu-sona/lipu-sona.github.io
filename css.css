@@ -17,6 +17,19 @@ body.dark-mode {
 	--opposite-txt-color: #050833;
 }
 
+* {
+	transition-property: background-color, color, box-shadow;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-out;
+}
+
+.notransition {
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+}
+
 body {
 	margin: 0;
 	background-color: var(--main-bg-color);
