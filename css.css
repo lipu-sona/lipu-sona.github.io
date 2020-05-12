@@ -3,7 +3,7 @@
 	--hl-color: #e8f1f3;
 	--ac-color: #659fad;
 	--fg-color: #ffffff;
-	--serif-font: "Gentium Plus", "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
+	--serif-font: "Constantia", "Gentium Plus", "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
 	--sans-font: "Leelawadee UI", "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -19,14 +19,22 @@ body {
 	font-size: 28px;
 	line-height: 45px; 
 }
-
+.content {
+	display: inline-block;
+	max-width: 1160px;
+	min-height: calc(100vh - 72px);
+	padding: 0px 20px;
+	margin: auto;
+	background-color: var(--bg-color);
+}
+/* Header stuff */
 .header {
 	display: inline-block;
 	width: 100%;
 	background-color: var(--fg-color);
 	color: var(--ac-color);
-	text-transform: uppercase;
-	letter-spacing: 11px;
+	text-transform: lowercase;
+	/*letter-spacing: 11px;*/
 	font-family: var(--sans-font);
 	font-weight: bold;
 	line-height: 72px;
@@ -44,60 +52,49 @@ body {
 	background-color: var(--hl-color);
 	color: var(--ac-color);
 }
-
-.content {
-	display: inline-block;
-	max-width: 1200px;
-	min-height: calc(100vh - 72px);
-	margin: auto;
-	background-color: var(--bg-color);
+.dropdown {
+	display: block;
+	background-color: var(--fg-color);
+	visibility: hidden;
+	position: absolute;
+	top: 72px;
+	right: 0;
+}
+.has-dropdown:hover + .dropdown, .dropdown:hover {
+	visibility: visible;
 }
 
-
-@media only screen and (min-width: 1101px) {
-	.logo {
-		display: inherit;
-	}
-	.section {
-		display: inherit;
-	}
-	.menu {
-		display: none;
-	}
-	.mainpage-logo {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		float: left;
-		width: 25%;
-		min-height: calc(100vh - 72px);
-	}
-	.mainpage-text {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		float: right;
-		width: 75%;
-		min-height: calc(100vh - 72px);
-	}
+.dropdown > .navbutton {
+	width: 100%;
+	padding: 0;
+	line-height: 64px;
+	color: var(--bg-color);
 }
-@media only screen and (max-width: 1201px) and (min-width: 900px) {
-	.logo {
-		display: none;
-	}
-	.section {
-		display: inherit;
-	}
-	.menu {
-		display: none;
-	}
+/* Different widths stuff */
+@media only screen and (min-width: 750px) {
+	.logo { display: inherit; }
+	.section { display: inherit; }
+	.menu { display: none; }
+}
+@media only screen and (max-width: 750px) and (min-width: 600px) {
+	.logo { display: none; }
+	.section { display: inherit; }
+	.menu { display: none; }
+}
+@media only screen and (max-width: 600px) {
+	.logo { display: inherit; }
+	.section { display: none; }
+	.menu { display: inherit; }
+}
+/* Front page positioning */
+@media only screen and (min-width: 900px) {
 	.mainpage-logo {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		float: left;
 		width: 40%;
-		height: 100%;
+		min-height: calc(100vh - 72px);
 	}
 	.mainpage-text {
 		display: flex;
@@ -105,19 +102,10 @@ body {
 		align-items: center;
 		float: right;
 		width: 60%;
-		height: 100%;
+		min-height: calc(100vh - 72px);
 	}
 }
-@media only screen and (max-width: 900px) {
-	.logo {
-		display: inherit;
-	}
-	.section {
-		display: none;
-	}
-	.menu {
-		display: inherit;
-	}
+@media only screen and (max-width: 901px) {
 	.mainpage-logo {
 		display: flex;
 		justify-content: center;
