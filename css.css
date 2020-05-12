@@ -38,8 +38,19 @@ h3 { font-size: 28px; }
 	margin: auto;
 	background-color: var(--main-bg-color);
 }
-@media only screen and (min-width: 1160px) { .content { width: 1120px; } }
-@media only screen and (max-width: 1160px) { .content { width: calc(100% - 40px); } }
+@media only screen and (min-width: 1180px) { 
+	.content { 
+		width: 1120px; 
+		border-width: 0 5px;
+		border-style: solid;
+		border-color: var(--opposite-bg-color);
+	}
+}
+@media only screen and (max-width: 1180px) {
+	.content { 
+		width: calc(100% - 40px);
+	}
+}
 a {
 	color: var(--highlight-txt-color);
 	text-decoration-line: none;
