@@ -38,15 +38,15 @@ h3 { font-size: 28px; }
 	margin: auto;
 	background-color: var(--main-bg-color);
 }
-@media only screen and (min-width: 1180px) { 
+@media only screen and (min-width: 1171px) { 
 	.content { 
 		width: 1120px; 
-		border-width: 0 5px;
+		border-width: 0 2px;
 		border-style: solid;
 		border-color: var(--opposite-bg-color);
 	}
 }
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 1170px) {
 	.content { 
 		width: calc(100% - 40px);
 	}
