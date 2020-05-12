@@ -37,9 +37,12 @@ h3 { font-size: 28px; }
 	padding: 0px 20px;
 	margin: auto;
 	background-color: var(--main-bg-color);
-	box-shadow: 0px 0 40px 0px #00000088;
+	box-shadow: 0px 0 30px 0px #000000ff;
 	position: relative;
 	z-index: -1;
+}
+body.dark-mode .content {
+	box-shadow: 20px 0 30px 0px #000000ff, -20px 0 30px 0px #000000ff;
 }
 @media only screen and (min-width: 1171px) { 
 	.content { 
