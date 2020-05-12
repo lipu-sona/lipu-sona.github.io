@@ -1,11 +1,20 @@
 :root {
+	--serif-font: "Constantia", "Gentium Plus", "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
+	--sans-font: "Leelawadee UI", "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+}
+body:not(.dark-mode) {
 	--main-bg-color: #092e37;
 	--main-txt-color: #ffffff;
 	--opposite-bg-color: #ffffff;
 	--opposite-txt-color: #659fad;
 	--highlight-bg-color: #e8f1f3;
-	--serif-font: "Constantia", "Gentium Plus", "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
-	--sans-font: "Leelawadee UI", "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+}
+body.dark-mode {
+	--main-bg-color: #000000;
+	--highlight-bg-color: #eeeeee;
+	--opposite-bg-color: #ffffff;
+	--main-txt-color: #ffffff;
+	--opposite-txt-color: #444444;
 }
 
 body {
