@@ -135,6 +135,7 @@ a {
 	top: 72px;
 	right: 0;
 	transition: all 0.3s ease-in-out;
+	width: 400px;
 }
 .has-dropdown:hover + .dropdown, .dropdown:hover { max-height: 1000px; }
 .dropdown > .navbutton, .dropdown > a > .navbutton {
@@ -157,6 +158,7 @@ a {
 	.logo { display: inherit; }
 	.section { display: none; }
 	.menu { display: inherit; }
+	.dropdown { width: 100vw; }
 }
 /* Front page positioning */
 @media only screen and (min-width: 900px) {
