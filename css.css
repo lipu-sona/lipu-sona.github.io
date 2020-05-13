@@ -14,7 +14,7 @@ body:not(.dark-mode) {
 body.dark-mode {
 	--main-bg-color: #09080e;
 	--main-txt-color: #cccccc;
-	--opposite-bg-color: #737373;
+	--opposite-bg-color: #dddddd;
 	--opposite-txt-color: #050833;
 	--highlight-bg-color: #eeeeee;
 	--main-card-color: #242537;
