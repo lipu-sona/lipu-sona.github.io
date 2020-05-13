@@ -7,38 +7,38 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="linja-pona-kijetesantakalu.svg"
-   inkscape:version="1.0 (4035a4f, 2020-05-01)"
-   id="svg8"
+   width="133.1275mm"
+   height="120.32211mm"
+   viewBox="0 0 133.1275 120.32211"
    version="1.1"
-   viewBox="0 0 133.12764 120.45024"
-   height="120.45024mm"
-   width="133.12764mm">
+   id="svg8"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="linja-pona-kijetesantakalu.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="1103"
-     inkscape:window-x="229"
-     inkscape:window-height="855"
-     inkscape:window-width="1440"
-     fit-margin-bottom="0"
-     fit-margin-right="0"
-     fit-margin-left="0"
-     fit-margin-top="0"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer2"
-     inkscape:document-units="mm"
-     inkscape:cy="302.20915"
-     inkscape:cx="128.46591"
-     inkscape:zoom="1.979899"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#000000"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="196.52297"
+     inkscape:cy="322.03226"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     inkscape:window-x="229"
+     inkscape:window-y="1103"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -52,45 +52,47 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-3.6091414,-2.8919161)"
-     style="opacity:1"
-     inkscape:label="Drawing"
+     inkscape:groupmode="layer"
      id="layer2"
-     inkscape:groupmode="layer">
+     inkscape:label="Drawing"
+     style="opacity:1"
+     transform="translate(-3.6092811,-2.8919161)">
     <path
-       id="path974"
-       d="M 23.906994,119.72396 V 76.823659"
-       style="fill:none;stroke:#ffffff;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       sodipodi:nodetypes="cccccccc"
-       d="M 39.053776,123.32752 C 39.1119,107.44547 38.741547,92.881365 38.969155,77.002885 38.898461,57.061379 43.117619,39.066662 56.279938,23.898344 65.069493,14.347859 80.41624,7.1853323 93.584816,6.9490076 l 3.199178,13.4283274 33.108996,26.132935 -20.03985,13.096207 -0.005,63.265313"
        style="fill:none;stroke:#ffffff;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path966" />
+       d="M 23.906994,119.72396 V 76.823659"
+       id="path974" />
     <path
-       id="path970"
-       d="M 91.659225,89.391367 V 122.65327"
-       style="fill:none;stroke:#ffffff;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       id="path966"
+       style="fill:none;stroke:#ffffff;stroke-width:8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 39.053776,114.33169 C 39.1119,98.449637 38.741547,92.881365 38.969155,77.002885 38.898461,57.061379 43.117619,39.066662 56.279938,23.898344 65.069493,14.347859 80.41624,7.1853323 93.584816,6.9490076 l 3.199178,13.4283274 33.108996,26.132935 -20.03985,13.096207 -0.005,59.607213"
+       sodipodi:nodetypes="cccccccc" />
     <path
-       d="m 63.688988,96.194939 6.80357,23.018751 -45.735118,0.0378 C 13.779297,119.12668 8.3008108,112.81655 7.6708487,101.52845 m 0,0 C 7.6159175,100.54415 7.5978518,99.521995 7.6162199,98.462794 7.8198663,86.719633 14.389898,76.388985 25.966964,76.388985 h 13.682737"
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#ffffff;stroke-width:8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 91.659225,92.566367 V 119.21369"
+       id="path970" />
+    <path
+       sodipodi:nodetypes="cccccssc"
+       id="path1014"
        style="fill:none;stroke:#ffffff;stroke-width:7.99999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path1014" />
+       d="m 63.688988,96.194939 6.80357,23.018751 H 24.75744 C 13.779297,119.08888 8.3008108,112.81655 7.6708487,101.52845 m 0,0 C 7.6159175,100.54415 7.5978518,99.521995 7.6162199,98.462794 7.8198663,86.719633 14.389898,76.388985 25.966964,76.388985 h 12.095237" />
     <g
-       style="fill:#b580e6;fill-opacity:1"
-       id="g988">
+       id="g988"
+       style="fill:#b580e6;fill-opacity:1">
       <ellipse
-         style="fill:#ffffff;stroke:none;stroke-width:7.99999;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+         cx="74.461311"
+         cy="41.010418"
+         rx="7.6540174"
+         ry="7.7485113"
          id="path976"
-         ry="7.7485113"
-         rx="7.6540174"
-         cy="41.010418"
-         cx="74.461311" />
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.99999;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
       <ellipse
-         cx="95.627968"
-         cy="41.010418"
-         rx="7.6540174"
-         ry="7.7485113"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.99999;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
          id="ellipse978"
-         style="fill:#ffffff;stroke:none;stroke-width:7.99999;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1" />
+         ry="7.7485113"
+         rx="7.6540174"
+         cy="41.010418"
+         cx="95.627968" />
     </g>
   </g>
 </svg>
