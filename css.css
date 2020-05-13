@@ -1,5 +1,5 @@
 :root {
-	--serif-font: "Constantia", "Gentium Plus", "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
+	--serif-font: "Sitka Subheading", "Constantia", "Gentium Plus", "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
 	--sans-font: "Leelawadee UI", "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
 }
 body:not(.dark-mode) {
@@ -97,6 +97,58 @@ a {
 }
 .card:hover {
 	background-color: var(--highlight-card-color);
+}
+
+/* Dictionary */
+
+.word {
+	display: inline-block;
+	width: 240px;
+	margin: 20px;
+	background-color: var(--main-card-color);
+	
+	border-top: 5px solid var(--opposite-bg-color);
+	border-left: 5px solid var(--opposite-bg-color);
+	border-bottom: 5px solid var(--opposite-bg-color);
+	border-right: 5px solid var(--opposite-bg-color);
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	vertical-align: top;
+	box-shadow: 0px 0 10px 0px #000000ff;
+}
+@media only screen and (min-width: 1171px) { .word { width: 1000px; } }
+@media only screen and (max-width: 1170px) { .word { width: calc(100% - 130px); } }
+@media only screen and (min-width: 701px) {
+	.sitelen {
+		display: flex;
+		float: left;
+		width: 100px;
+		/*min-height: calc(100vh - 72px);*/
+		flex-direction: column;
+	}
+	.word-content {
+		display: flex;
+		float: right;
+		width: calc(100% - 110px);
+		border-left: 5px solid var(--opposite-bg-color); 
+		/*min-height: calc(100vh - 72px);*/
+		flex-direction: column;
+	}
+}
+@media only screen and (max-width: 700px) {
+	.sitelen {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.word-content {
+		border-top: 5px solid var(--opposite-bg-color);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
 }
 
 /* Header stuff */
