@@ -129,12 +129,14 @@ a {
 .dropdown {
 	display: block;
 	background-color: var(--main-txt-color);
-	visibility: hidden;
+	max-height: 0;
+	overflow: hidden;
 	position: absolute;
 	top: 72px;
 	right: 0;
+	transition: all 0.3s ease-out;
 }
-.has-dropdown:hover + .dropdown, .dropdown:hover { visibility: visible; }
+.has-dropdown:hover + .dropdown, .dropdown:hover { max-height: 1000px; }
 .dropdown > .navbutton, .dropdown > a > .navbutton {
 	width: 100%;
 	padding: 0;
