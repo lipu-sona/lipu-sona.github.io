@@ -8,13 +8,17 @@ body:not(.dark-mode) {
 	--opposite-bg-color: #ffffff;
 	--opposite-txt-color: #659fad;
 	--highlight-bg-color: #e8f1f3;
+	--main-card-color: #0c5364;
+	--highlight-card-color: #186d82;
 }
 body.dark-mode {
 	--main-bg-color: #09080e;
-	--highlight-bg-color: #eeeeee;
-	--opposite-bg-color: #dddddd;
 	--main-txt-color: #cccccc;
+	--opposite-bg-color: #737373;
 	--opposite-txt-color: #050833;
+	--highlight-bg-color: #eeeeee;
+	--main-card-color: #242537;
+	--highlight-card-color: #303255;
 }
 
 * {
@@ -80,13 +84,19 @@ a {
 	height: 240px;
 	margin: 20px;
 	padding: 20px;
+	background-color: var(--main-card-color);
 	
-	border-top: 3px solid var(--opposite-bg-color);
-	border-left: 3px solid var(--opposite-bg-color);
-	border-bottom: 9px solid var(--opposite-bg-color);
-	border-right: 20px solid var(--opposite-bg-color);
-	border-radius: 20px;
+	border-top: 5px solid var(--opposite-bg-color);
+	border-left: 5px solid var(--opposite-bg-color);
+	border-bottom: 10px solid var(--opposite-bg-color);
+	border-right: 10px solid var(--opposite-bg-color);
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
 	vertical-align: top;
+	box-shadow: 0px 0 10px 0px #000000ff;
+}
+.card:hover {
+	background-color: var(--highlight-card-color);
 }
 
 /* Header stuff */
@@ -119,13 +129,15 @@ a {
 .dropdown {
 	display: block;
 	background-color: var(--main-txt-color);
-	visibility: hidden;
+	max-height: 0;
+	overflow: hidden;
 	position: absolute;
 	top: 72px;
 	right: 0;
+	transition: all 0.3s ease-out;
 }
-.has-dropdown:hover + .dropdown, .dropdown:hover { visibility: visible; }
-.dropdown > .navbutton {
+.has-dropdown:hover + .dropdown, .dropdown:hover { max-height: 1000px; }
+.dropdown > .navbutton, .dropdown > a > .navbutton {
 	width: 100%;
 	padding: 0;
 	line-height: 64px;
