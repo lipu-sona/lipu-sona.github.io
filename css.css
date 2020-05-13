@@ -135,7 +135,7 @@ a {
 	right: 0;
 }
 .has-dropdown:hover + .dropdown, .dropdown:hover { visibility: visible; }
-.dropdown > .navbutton {
+.dropdown > .navbutton, .dropdown > a > .navbutton {
 	width: 100%;
 	padding: 0;
 	line-height: 64px;
