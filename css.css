@@ -112,9 +112,7 @@ details[open] > summary::after { content: "▼"; }*/
 	border-radius: 20px;
 }
 .word > summary { padding: 10px; }
-.word:hover {
-	background-color: var(--main-card-color);
-}
+.word:hover { background-color: var(--main-card-color); }
 .word-name {
 	display: inline-block;
 	font-size: 25px;
@@ -136,6 +134,26 @@ details[open] > summary::after { content: "▼"; }*/
     overflow: hidden;
 }
 details[open] > .word-extra { max-height: 1000px; }
+.dict-link-wrapper {
+	font-size: 25px;
+	font-weight: bold;
+	width: 340px;
+	margin: auto;
+}
+@media only screen and (max-width: 385px) {
+	.dict-link-wrapper { 
+		width: calc(100% - 30px);
+	}
+}
+.dict-link {
+	display: inline-block;
+	background-color: var(--main-card-color);
+	width: 30px;
+	padding: 5px;
+	margin: 4px 0px;
+	border-radius: 10px;
+}
+.dict-link:hover { background-color: var(--highlight-card-color); }
 
 
 /* Header stuff */
