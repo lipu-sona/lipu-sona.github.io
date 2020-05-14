@@ -109,9 +109,9 @@ details[open] > summary::after { content: "▼"; }*/
 .word {
 	/*background-color: var(--main-card-color);*/
 	text-align: left;
-	padding: 15px;
 	border-radius: 20px;
 }
+.word > summary { padding: 15px; }
 .word:hover {
 	background-color: var(--main-card-color);
 }
