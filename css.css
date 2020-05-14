@@ -109,7 +109,7 @@ details[open] > summary::after { content: "▼"; }*/
 .word {
 	/*background-color: var(--main-card-color);*/
 	text-align: left;
-	padding: 10px;
+	padding: 15px;
 	border-radius: 20px;
 }
 .word:hover {
@@ -129,13 +129,13 @@ details[open] > summary::after { content: "▼"; }*/
 .word-extra {
 	background-color: var(--main-card-color);
 	border-radius: 20px;
-	padding: 10px;
+	padding: 15px;
+	margin-left: 15px;
 	max-height: 0;
     transition: max-height 0.2s ease-in-out;
     overflow: hidden;
 }
 details[open] > .word-extra { max-height: 1000px; }
-.word:hover > .word-extra { background-color: var(--highlight-card-color); }
 
 
 /* Header stuff */
