@@ -7,7 +7,7 @@ body:not(.dark-mode) {
 	--main-txt-color: #ffffff;
 	--opposite-bg-color: #ffffff;
 	--opposite-txt-color: #659fad;
-	--highlight-bg-color: #e8f1f3;
+	--highlight-bg-color: #dcecf0;
 	--main-card-color: #0c5364;
 	--highlight-card-color: #186d82;
 }
@@ -16,7 +16,7 @@ body.dark-mode {
 	--main-txt-color: #cccccc;
 	--opposite-bg-color: #dddddd;
 	--opposite-txt-color: #050833;
-	--highlight-bg-color: #eeeeee;
+	--highlight-bg-color: #f5f5f5;
 	--main-card-color: #242537;
 	--highlight-card-color: #303255;
 }
@@ -151,7 +151,7 @@ details[open] > .word-extra { max-height: 1000px; }
 	line-height: 54px;
 	font-size: 21px;
 	position: relative;
-
+	box-shadow: 0px 0 23px 0px #000000ff;
 }
 .nav {
 	display: flex;
