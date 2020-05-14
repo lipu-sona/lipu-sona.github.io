@@ -101,55 +101,42 @@ a {
 
 /* Dictionary */
 
+summary { list-style: none; }
+summary::-webkit-details-marker { display: none; }
+/*details > summary::after { content: "▶"; }
+details[open] > summary::after { content: "▼"; }*/
+
 .word {
-	display: inline-block;
-	width: 240px;
-	margin: 20px;
+	/*background-color: var(--main-card-color);*/
+	text-align: left;
+	padding: 10px;
+	border-radius: 20px;
+}
+.word:hover {
 	background-color: var(--main-card-color);
-	
-	border-top: 5px solid var(--opposite-bg-color);
-	border-left: 5px solid var(--opposite-bg-color);
-	border-bottom: 5px solid var(--opposite-bg-color);
-	border-right: 5px solid var(--opposite-bg-color);
-	border-top-right-radius: 40px;
-	border-bottom-right-radius: 40px;
+}
+.word-name {
+	display: inline-block;
+	font-size: 34px;
+	font-weight: bold;
 	vertical-align: top;
-	box-shadow: 0px 0 10px 0px #000000ff;
 }
-@media only screen and (min-width: 1171px) { .word { width: 1000px; } }
-@media only screen and (max-width: 1170px) { .word { width: calc(100% - 130px); } }
-@media only screen and (min-width: 701px) {
-	.sitelen {
-		display: flex;
-		float: left;
-		width: 100px;
-		/*min-height: calc(100vh - 72px);*/
-		flex-direction: column;
-	}
-	.word-content {
-		display: flex;
-		float: right;
-		width: calc(100% - 110px);
-		border-left: 5px solid var(--opposite-bg-color); 
-		/*min-height: calc(100vh - 72px);*/
-		flex-direction: column;
-	}
+.word-description {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 14px;
 }
-@media only screen and (max-width: 700px) {
-	.sitelen {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-	}
-	.word-content {
-		border-top: 5px solid var(--opposite-bg-color);
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-	}
+.word-extra {
+	background-color: var(--main-card-color);
+	border-radius: 20px;
+	padding: 10px;
+	max-height: 0;
+    transition: max-height 0.2s ease-in-out;
+    overflow: hidden;
 }
+details[open] > .word-extra { max-height: 1000px; }
+.word:hover > .word-extra { background-color: var(--highlight-card-color); }
+
 
 /* Header stuff */
 .header {
