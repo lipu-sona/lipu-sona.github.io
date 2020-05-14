@@ -43,33 +43,33 @@ body {
 	font-family: var(--sans-font);
 	color: var(--main-txt-color);
 	text-align: center;
-	font-size: 20px;
+	font-size: 15px;
 }
-h1 { font-size: 56px; }
-h2 { font-size: 34px; }
-h3 { font-size: 28px; }
+h1 { font-size: 42px; }
+h2 { font-size: 25px; }
+h3 { font-size: 21px; }
 .content {
 	display: inline-block;
-	min-height: calc(100vh - 72px);
-	padding: 0px 20px;
+	min-height: calc(100vh - 54px);
+	padding: 0px 15px;
 	margin: auto;
 	background-color: var(--main-bg-color);
-	box-shadow: 0px 0 30px 0px #000000ff;
+	box-shadow: 0px 0 23px 0px #000000ff;
 }
 body.dark-mode .content {
-	box-shadow: 20px 0 30px 0px #000000ff, -20px 0 30px 0px #000000ff;
+	box-shadow: 15px 0 23px 0px #000000ff, -15px 0 23px 0px #000000ff;
 }
-@media only screen and (min-width: 1171px) { 
+@media only screen and (min-width: 879px) { 
 	.content { 
-		width: 1120px; 
+		width: 840px; 
 		border-width: 0 2px;
 		border-style: solid;
 		border-color: var(--opposite-bg-color);
 	}
 }
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 878px) {
 	.content { 
-		width: calc(100% - 40px);
+		width: calc(100% - 30px);
 	}
 }
 a {
@@ -80,20 +80,20 @@ a {
 /* Courses and lessons */
 .card {
 	display: inline-block;
-	width: 240px;
-	height: 240px;
-	margin: 20px;
-	padding: 20px;
+	width: 180px;
+	height: 180px;
+	margin: 15px;
+	padding: 15px;
 	background-color: var(--main-card-color);
 	
 	border-top: 5px solid var(--opposite-bg-color);
 	border-left: 5px solid var(--opposite-bg-color);
 	border-bottom: 10px solid var(--opposite-bg-color);
 	border-right: 10px solid var(--opposite-bg-color);
-	border-top-right-radius: 40px;
-	border-bottom-right-radius: 40px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
 	vertical-align: top;
-	box-shadow: 0px 0 10px 0px #000000ff;
+	box-shadow: 0px 0 7px 0px #000000ff;
 }
 .card:hover {
 	background-color: var(--highlight-card-color);
@@ -111,26 +111,26 @@ details[open] > summary::after { content: "▼"; }*/
 	text-align: left;
 	border-radius: 20px;
 }
-.word > summary { padding: 15px; }
+.word > summary { padding: 10px; }
 .word:hover {
 	background-color: var(--main-card-color);
 }
 .word-name {
 	display: inline-block;
-	font-size: 34px;
+	font-size: 25px;
 	font-weight: bold;
 	vertical-align: top;
 }
 .word-description {
 	display: inline-block;
 	vertical-align: top;
-	padding-top: 14px;
+	padding-top: 10px;
 }
 .word-extra {
 	background-color: var(--main-card-color);
 	border-radius: 20px;
-	padding: 15px;
-	margin-left: 15px;
+	padding: 10px;
+	margin-left: 10px;
 	max-height: 0;
     transition: max-height 0.2s ease-in-out;
     overflow: hidden;
@@ -148,8 +148,8 @@ details[open] > .word-extra { max-height: 1000px; }
 	/*letter-spacing: 11px;*/
 	font-family: var(--sans-font);
 	font-weight: bold;
-	line-height: 72px;
-	font-size: 28px;
+	line-height: 54px;
+	font-size: 21px;
 	position: relative;
 
 }
@@ -159,7 +159,7 @@ details[open] > .word-extra { max-height: 1000px; }
 }
 .navbutton {
 	display: inline-block;
-	padding: 0 30px;
+	padding: 0 23px;
 	float: left;
 }
 .navbutton:hover {
@@ -171,43 +171,43 @@ details[open] > .word-extra { max-height: 1000px; }
 	max-height: 0;
 	overflow: hidden;
 	position: absolute;
-	top: 72px;
+	top: 54px;
 	right: 0;
 	transition: all 0.3s ease-in-out;
-	width: 400px;
+	width: 300px;
 }
 .has-dropdown:hover + .dropdown, .dropdown:hover { max-height: 1000px; }
 .dropdown > .navbutton, .dropdown > a > .navbutton {
 	width: 100%;
 	padding: 0;
-	line-height: 64px;
+	line-height: 48px;
 }
 /* Different widths stuff */
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 651px) {
 	.logo { display: inherit; }
 	.section { display: inherit; }
 	.menu { display: none; }
 }
-@media only screen and (max-width: 850px) and (min-width: 600px) {
+@media only screen and (max-width: 650px) and (min-width: 451px) {
 	.logo { display: none; }
 	.section { display: inherit; }
 	.menu { display: none; }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
 	.logo { display: inherit; }
 	.section { display: none; }
 	.menu { display: inherit; }
 	.dropdown { width: 100vw; }
 }
 /* Front page positioning */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 675px) {
 	.mainpage-logo {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		float: left;
 		width: 40%;
-		min-height: calc(100vh - 72px);
+		min-height: calc(100vh - 54px);
 	}
 	.mainpage-text {
 		display: flex;
@@ -215,10 +215,10 @@ details[open] > .word-extra { max-height: 1000px; }
 		align-items: center;
 		float: right;
 		width: 60%;
-		min-height: calc(100vh - 72px);
+		min-height: calc(100vh - 54px);
 	}
 }
-@media only screen and (max-width: 901px) {
+@media only screen and (max-width: 676px) {
 	.mainpage-logo {
 		display: flex;
 		justify-content: center;
