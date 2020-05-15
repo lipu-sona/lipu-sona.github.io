@@ -245,3 +245,13 @@ details[open] > .word-extra { max-height: 1000px; }
 	background-color: var(--main-card-color);
 }
 .link-title:hover { background-color: var(--highlight-card-color); }
+.back-button-wrapper {
+	display: inline-block;
+	width: 100%;
+}
+.back-button {
+	float: right;
+	padding: 0px 20px;
+	background-color: var(--main-card-color);
+}
+.back-button:hover { background-color: var(--highlight-card-color); }
