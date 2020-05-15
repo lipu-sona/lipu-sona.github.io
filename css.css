@@ -237,3 +237,11 @@ summary::-webkit-details-marker { display: none; }
     overflow: hidden;
 }
 details[open] > .word-extra { max-height: 1000px; }
+
+/* Links */
+.link-title {
+	display: inline-block;
+	width: 100%;
+	background-color: var(--main-card-color);
+}
+.link-title:hover { background-color: var(--highlight-card-color); }
