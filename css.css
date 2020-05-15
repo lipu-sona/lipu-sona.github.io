@@ -60,9 +60,9 @@ h3 { font-size: 21px; }
 	margin: auto;
 	padding: 0px 15px;
 	background-color: var(--main-bg-color);
-	box-shadow: 0px 0 23px 0px #000000ff;
+	box-shadow: 0px 0 10px 0px #000000ff;
 }
-body.dark-mode .content { box-shadow: 15px 0 23px 0px #000000ff, -15px 0 23px 0px #000000ff; }
+body.dark-mode .content { box-shadow: 5px 0 10px 0px #000000ff, -5px 0 10px 0px #000000ff; }
 @media only screen and (min-width: 879px) { 
 	.content { 
 		width: 840px; 
@@ -89,8 +89,8 @@ a {
 	font-size: 21px;
 	line-height: 54px;
 	font-weight: bold;
-	text-transform: lowercase;
-	box-shadow: 0px 0 23px 0px #000000ff;
+	text-transform: titlecase;
+	box-shadow: 0px 0 10px 0px #000000ff;
 }
 .nav {
 	display: flex;
@@ -179,13 +179,10 @@ a {
 	padding: 15px;
 	vertical-align: top;
 	background-color: var(--main-card-color);
-	border-top: 5px solid var(--opposite-bg-color);
-	border-left: 5px solid var(--opposite-bg-color);
-	border-bottom: 10px solid var(--opposite-bg-color);
-	border-right: 10px solid var(--opposite-bg-color);
-	border-top-right-radius: 30px;
-	border-bottom-right-radius: 30px;
-	box-shadow: 0px 0 7px 0px #000000ff;
+	border: 2px solid var(--opposite-bg-color);
+	/*border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;*/
+	box-shadow: 0px 0 3px 0px #000000ff;
 }
 .card:hover { background-color: var(--highlight-card-color); }
 
@@ -208,14 +205,14 @@ a {
 	margin: 4px 0px;
 	padding: 5px;
 	background-color: var(--main-card-color);
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
 .dict-link:hover { background-color: var(--highlight-card-color); }
 summary { list-style: none; }
 summary::-webkit-details-marker { display: none; }
 .word {
 	text-align: left;
-	border-radius: 20px;
+	/*border-radius: 20px;*/
 }
 .word > summary { padding: 10px; }
 .word:hover { background-color: var(--main-card-color); }
@@ -235,7 +232,7 @@ summary::-webkit-details-marker { display: none; }
 	margin-left: 10px;
 	padding: 10px;
 	background-color: var(--main-card-color);
-	border-radius: 20px;
+	/*border-radius: 20px;*/
     transition: max-height 0.2s ease-in-out;
     overflow: hidden;
 }
