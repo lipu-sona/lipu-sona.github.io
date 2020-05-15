@@ -248,6 +248,7 @@ details[open] > .word-extra { max-height: 1000px; }
 .back-button-wrapper {
 	display: inline-block;
 	width: 100%;
+	margin-bottom: 15px;
 }
 .back-button {
 	float: right;
