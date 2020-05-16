@@ -51,7 +51,10 @@ body {
 	font-family: var(--sans-font);
 	font-size: 15px;
 }
-h1 { font-size: 42px; }
+h1 {
+	margin: 20px 20px;
+	font-size: 42px;
+}
 h2 { font-size: 25px; }
 h3 { font-size: 21px; }
 .content {
@@ -229,7 +232,7 @@ details[open] > .word-extra { max-height: 1000px; }
 	width: calc(100% - 30px);
 	margin: auto;
 }
-.toc-link {
+.link-button {
 	display: inline-block;
 	min-width: 25px;
 	margin: 4px 1.5px;
@@ -239,13 +242,10 @@ details[open] > .word-extra { max-height: 1000px; }
 	font-weight: bold;
 	/*border-radius: 10px;*/
 }
-.toc-link:hover { background-color: var(--highlight-card-color); }
-/*.link-title {
-	display: inline-block;
-	padding: 10px 20px;
-	background-color: var(--main-card-color);
+.link-button:hover { background-color: var(--highlight-card-color); }
+.link-desc {
+	margin: 5px 0 20px 20px;
 }
-.link-title:hover { background-color: var(--highlight-card-color); }*/
 .back-button-wrapper {
 	display: inline-block;
 	width: 100%;
