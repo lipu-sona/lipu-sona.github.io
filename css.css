@@ -188,26 +188,32 @@ a {
 
 /* Dictionary */
 
-.dict-link-wrapper {
+.toc-dict-wrapper {
 	width: 340px;
 	margin: auto;
 	font-size: 25px;
 	font-weight: bold;
 }
 @media only screen and (max-width: 385px) {
-	.dict-link-wrapper { 
+	.toc-wrapper { 
 		width: calc(100% - 30px);
 	}
 }
-.dict-link {
+.toc-links-wrapper {
+	width: calc(100% - 30px);
+	margin: auto;
+	font-size: 25px;
+	font-weight: bold;
+}
+.toc-link {
 	display: inline-block;
-	width: 30px;
+	min-width: 25px;
 	margin: 4px 0px;
-	padding: 5px;
+	padding: 5px 7.5px;
 	background-color: var(--main-card-color);
 	/*border-radius: 10px;*/
 }
-.dict-link:hover { background-color: var(--highlight-card-color); }
+.toc-link:hover { background-color: var(--highlight-card-color); }
 summary { list-style: none; }
 summary::-webkit-details-marker { display: none; }
 .word {
