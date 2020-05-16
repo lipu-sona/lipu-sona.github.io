@@ -188,32 +188,6 @@ a {
 
 /* Dictionary */
 
-.toc-dict-wrapper {
-	width: 340px;
-	margin: auto;
-	font-size: 25px;
-	font-weight: bold;
-}
-@media only screen and (max-width: 385px) {
-	.toc-wrapper { 
-		width: calc(100% - 30px);
-	}
-}
-.toc-links-wrapper {
-	width: calc(100% - 30px);
-	margin: auto;
-	font-size: 25px;
-	font-weight: bold;
-}
-.toc-link {
-	display: inline-block;
-	min-width: 25px;
-	margin: 4px 0px;
-	padding: 5px 7.5px;
-	background-color: var(--main-card-color);
-	/*border-radius: 10px;*/
-}
-.toc-link:hover { background-color: var(--highlight-card-color); }
 summary { list-style: none; }
 summary::-webkit-details-marker { display: none; }
 .word {
@@ -245,12 +219,33 @@ summary::-webkit-details-marker { display: none; }
 details[open] > .word-extra { max-height: 1000px; }
 
 /* Links */
-.link-title {
+
+.toc-dict-wrapper {
+	width: 340px;
+	margin: auto;
+}
+@media only screen and (max-width: 385px) { .toc-dict-wrapper { width: calc(100% - 30px); } }
+.toc-links-wrapper {
+	width: calc(100% - 30px);
+	margin: auto;
+}
+.toc-link {
 	display: inline-block;
-	width: 100%;
+	min-width: 25px;
+	margin: 4px 1.5px;
+	padding: 5px 7.5px;
+	background-color: var(--main-card-color);
+	font-size: 25px;
+	font-weight: bold;
+	/*border-radius: 10px;*/
+}
+.toc-link:hover { background-color: var(--highlight-card-color); }
+/*.link-title {
+	display: inline-block;
+	padding: 10px 20px;
 	background-color: var(--main-card-color);
 }
-.link-title:hover { background-color: var(--highlight-card-color); }
+.link-title:hover { background-color: var(--highlight-card-color); }*/
 .back-button-wrapper {
 	display: inline-block;
 	width: 100%;
