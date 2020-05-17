@@ -82,7 +82,11 @@ a {
 
 @font-face {
 	font-family: "Linja Pona";
-	src: url(linjapona3-5OTF.ttf);
+	src: url("linjapona3-5OTF.ttf");
+}
+@font-face {
+	font-family: "Sitelen Sitelen";
+	src: url("sitsit (linja pona)-SVG.ttf");
 }
 /* Header stuff */
 
@@ -224,9 +228,18 @@ summary::-webkit-details-marker { display: none; }
     overflow: hidden;
 }
 details[open] > .word-extra { max-height: 1000px; }
+.dict-images {
+	display: flex;
+}
 .dict-sitelen-pona {
-	font-size: 120px;
+	padding: 0px 5px;
+	font-size: 80px;
 	font-family: "Linja Pona";
+}
+.dict-sitelen-sitelen {
+	padding: 0px 5px;
+	font-size: 80px;
+	font-family: "Sitelen Sitelen";
 }
 /* Links */
 
