@@ -232,11 +232,15 @@ details[open] > .word-extra { max-height: 1000px; }
 	display: flex;
 }
 .dict-sitelen-pona {
+	text-align: center;
+	min-width: 80px;
 	padding: 0px 5px;
 	font-size: 80px;
 	font-family: "Linja Pona";
 }
 .dict-sitelen-sitelen {
+	text-align: center;
+	min-width: 80px;
 	padding: 0px 5px;
 	font-size: 80px;
 	font-family: "Sitelen Sitelen";
