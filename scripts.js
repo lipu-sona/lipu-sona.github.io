@@ -24,3 +24,9 @@ document.addEventListener("DOMContentLoaded", function() {
 		body.classList.remove("notransition");
     }
 });
+
+
+function play(sound) {
+    var snd = new Audio('../sound/' + sound + '.mp3');
+    snd.play();
+}
