@@ -79,7 +79,7 @@ body.dark-mode .content { box-shadow: 5px 0 10px 0px #000000ff, -5px 0 10px 0px 
 @media only screen and (max-width: 878px) { .content { width: calc(100% - 30px); } }
 a {
 	color: var(--highlight-txt-color);
-	text-decoration-line: none;
+	/*text-decoration-line: none;*/
 }
 
 @font-face {
@@ -192,6 +192,7 @@ a {
 	/*border-top-right-radius: 30px;
 	border-bottom-right-radius: 30px;*/
 	box-shadow: 0px 0 3px 0px #000000ff;
+	text-decoration-line: none;
 }
 .card:hover { background-color: var(--highlight-card-color); }
 
@@ -275,7 +276,7 @@ details[open] > .word-extra { max-height: 1000px; }
 	background-color: var(--main-card-color);
 	font-size: 25px;
 	font-weight: bold;
-	/*border-radius: 10px;*/
+	text-decoration-line: none;
 }
 .link-button:hover { background-color: var(--highlight-card-color); }
 .link-desc {
@@ -290,5 +291,6 @@ details[open] > .word-extra { max-height: 1000px; }
 	float: right;
 	padding: 0px 20px;
 	background-color: var(--main-card-color);
+	text-decoration-line: none;
 }
 .back-button:hover { background-color: var(--highlight-card-color); }
