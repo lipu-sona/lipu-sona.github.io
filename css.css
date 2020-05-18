@@ -217,14 +217,14 @@ summary::-webkit-details-marker { display: none; }
 .word-extra {
 	max-height: 0;
 	margin-left: 10px;
-	padding: 10px;
+	padding: 10px 10px 0 10px;
 	background-color: var(--main-card-color);
 	/*border-radius: 20px;*/
     transition: max-height 0.2s ease-in-out;
     overflow: hidden;
 }
 details[open] > .word-extra { max-height: 1000px; }
-.dict-images {
+.word-images {
 	display: flex;
 }
 .dict-sitelen-pona {
