@@ -1,3 +1,3 @@
-## The repository for [lipu-pi-toki-pona.github.io](https://lipu-pi-toki-pona.github.io)
+## The repository for [lipu-sona.github.io](https://lipu-sona.github.io)
 
 
