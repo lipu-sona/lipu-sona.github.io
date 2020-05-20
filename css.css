@@ -128,17 +128,17 @@ a {
 	padding: 0;
 	line-height: 48px;
 }
-@media only screen and (min-width: 651px) {
+@media only screen and (min-width: 591px) {
 	.logo { display: inherit; }
 	.section { display: inherit; }
 	.menu { display: none; }
 }
-@media only screen and (max-width: 650px) and (min-width: 451px) {
+@media only screen and (max-width: 590px) and (min-width: 441px) {
 	.logo { display: none; }
 	.section { display: inherit; }
 	.menu { display: none; }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 440px) {
 	.logo { display: inherit; }
 	.section { display: none; }
 	.menu { display: inherit; }
