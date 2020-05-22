@@ -84,7 +84,7 @@ a {
 
 @font-face {
 	font-family: "Linja Pona";
-	src: url("linjapona3-5OTF.ttf");
+	src: url("linja pona 3.6.otf");
 }
 /* Header stuff */
 
@@ -198,6 +198,9 @@ a {
 
 /* Dictionary */
 
+body.pu .nonpu { display: none; }
+#show_nonpu { display: none; }
+
 summary { list-style: none; }
 summary::-webkit-details-marker { display: none; }
 .word {
@@ -219,6 +222,7 @@ summary::-webkit-details-marker { display: none; }
 }
 .word-extra {
 	max-height: 0;
+	min-width: 260px;
 	width: min-content;
 	margin-left: 10px;
 	padding: 10px 10px 0 10px;

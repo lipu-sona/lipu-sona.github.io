@@ -46,6 +46,8 @@
 				<a class="link-button" href="#unpa">u</a>
 				<a class="link-button" href="#walo">w</a>
 			</div>
+			<a class="link-button" id="hide_nonpu" onclick="toggle_pu()">Hide unofficial words</a>
+			<a class="link-button" id="show_nonpu" onclick="toggle_pu()">Show unofficial words</a>
 			<details class="word" id="a">
 				<summary>
 					<span class="word-name">a</span>
@@ -410,6 +412,19 @@
 					<p class="dict-etymology">From Dutch <a href="https://en.wiktionary.org/wiki/gebruiken#Dutch">gebruiken</a> ‘to use’</p>
 				</div>
 			</details>
+			<details class="nonpu word" id="kijetesantakalu">
+				<summary>
+					<span class="word-name">kijetesantakalu</span>
+					<span class="word-description">any animal from the Procyonidae family, such as raccoons, coatis, kinkajous, olingos, ringtails and cacomistles</span>
+				</summary>
+				<div class="word-extra">
+					<div class="word-images">
+						<div class="dict-sitelen-pona">kijetesantakalu</div>
+						<div class="dict-sound" onclick="play('kijetesantakalu')">▶</div>
+					</div>
+					<p class="dict-etymology">From Finnish <a href="https://fi.wikipedia.org/wiki/Kierteishäntäkarhu">kierteishäntäkarhu</a> ‘kinkajou’</p>
+				</div>
+			</details>
 			<details class="word" id="kili">
 				<summary>
 					<span class="word-name">kili</span>
@@ -422,6 +437,34 @@
 						<div class="dict-sound" onclick="play('kili')">▶</div>
 					</div>
 					<p class="dict-etymology">From Georgian <a href="https://en.wiktionary.org/wiki/%E1%83%AE%E1%83%98%E1%83%9A%E1%83%98#Georgian">ხილი xili</a> ‘fruit’</p>
+				</div>
+			</details>
+			<details class="nonpu word" id="kin">
+				<summary>
+					<span class="word-name">kin</span>
+					<span class="word-description">too, also, as well<br>(in pu, synonym of a)</span>
+				</summary>
+				<div class="word-extra">
+					<div class="word-images">
+						<div class="sit-sit-wrapper"><img class="dict-sit-sit" src="../pictures/sitelen/kin.svg" /></div>
+						<div class="dict-sitelen-pona">kin</div>
+						<div class="dict-sound" onclick="play('kin')">▶</div>
+					</div>
+					<p class="dict-etymology">From Finnish <a href="https://en.wiktionary.org/wiki/-kin#Finnish">-kin</a> ‘too, also, still’</p>
+				</div>
+			</details>
+			<details class="nonpu word" id="kipisi">
+				<summary>
+					<span class="word-name">kipisi</span>
+					<span class="word-description">split, cut, slice</span>
+				</summary>
+				<div class="word-extra">
+					<div class="word-images">
+						<div class="sit-sit-wrapper"><img class="dict-sit-sit" src="../pictures/sitelen/kipisi.svg" /></div>
+						<div class="dict-sitelen-pona">kipisi</div>
+						<div class="dict-sound" onclick="play('kipisi')">▶</div>
+					</div>
+					<p class="dict-etymology">From Iñupiat kipriruk ‘cut’ or Swahili kipisi ‘sliver, small piece of wood’</p>
 				</div>
 			</details>
 			<details class="word" id="kiwen">
@@ -844,6 +887,19 @@
 					<p class="dict-etymology">From Acadian French mon tchu, dialectal variant of <a href="https://en.wiktionary.org/wiki/mon_cul#French">mon cul</a> ‘{vulgar} my ass’</p>
 				</div>
 			</details>
+			<details class="nonpu word" id="monsuta">
+				<summary>
+					<span class="word-name">monsuta</span>
+					<span class="word-description">fear, monster</span>
+				</summary>
+				<div class="word-extra">
+					<div class="word-images">
+						<div class="dict-sitelen-pona">monsuta</div>
+						<div class="dict-sound" onclick="play('monsuta')">▶</div>
+					</div>
+					<p class="dict-etymology">From Japanese <a href="https://en.wiktionary.org/wiki/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC">モンスター monsutā</a> ‘monster’</p>
+				</div>
+			</details>
 			<details class="word" id="mu">
 				<summary>
 					<span class="word-name">mu</span>
@@ -898,6 +954,20 @@
 						<div class="dict-sound" onclick="play('mute')">▶</div>
 					</div>
 					<p class="dict-etymology">From Esperanto <a href="https://en.wiktionary.org/wiki/multe#Esperanto">multe</a> ‘a lot’</p>
+				</div>
+			</details>
+			<details class="nonpu word" id="namako">
+				<summary>
+					<span class="word-name">namako</span>
+					<span class="word-description">embellishment, spice<br> extra, additional<br>(in pu, synonym of sin)</span>
+				</summary>
+				<div class="word-extra">
+					<div class="word-images">
+						<div class="sit-sit-wrapper"><img class="dict-sit-sit" src="../pictures/sitelen/namako.svg" /></div>
+						<div class="dict-sitelen-pona">namako</div>
+						<div class="dict-sound" onclick="play('namako')">▶</div>
+					</div>
+					<p class="dict-etymology">From Persian <a href="https://en.wiktionary.org/wiki/%D9%86%D9%85%DA%A9#Persian">نمک namak</a> ‘salt’</p>
 				</div>
 			</details>
 			<details class="word" id="nanpa">
@@ -1012,10 +1082,10 @@
 					<p class="dict-etymology">From Georgian <a href="https://en.wiktionary.org/wiki/-%E1%83%9D#Georgian">-ო -o</a> ‘(vocative suffix)’ or English <a href="https://en.wiktionary.org/wiki/oh#English">oh</a></p>
 				</div>
 			</details>
-			<details class="word" id="oko">
+			<details class="nonpu word" id="oko">
 				<summary>
 					<span class="word-name">oko</span>
-					<span class="word-description">(see lukin)</span>
+					<span class="word-description">eye, ocular, visual<br>(in pu, a synonym of lukin)</span>
 				</summary>
 				<div class="word-extra">
 					<div class="word-images">
@@ -1243,7 +1313,6 @@
 				</summary>
 				<div class="word-extra">
 					<div class="word-images">
-						<div class="sit-sit-wrapper"><img class="dict-sit-sit" src="../pictures/sitelen/pu.svg" /></div>
 						<div class="dict-sitelen-pona">pu</div>
 						<div class="dict-sound" onclick="play('pu')">▶</div>
 					</div>
@@ -1584,6 +1653,19 @@
 						<div class="dict-sound" onclick="play('tomo')">▶</div>
 					</div>
 					<p class="dict-etymology">From Esperanto <a href="https://en.wiktionary.org/wiki/domo#Esperanto">domo</a> ‘house’</p>
+				</div>
+			</details>
+			<details class="nonpu word" id="tonsi">
+				<summary>
+					<span class="word-name">tonsi</span>
+					<span class="word-description">trans, gender-non-conforming, non-binary</span>
+				</summary>
+				<div class="word-extra">
+					<div class="word-images">
+						<div class="dict-sitelen-pona">tonsi</div>
+						<div class="dict-sound" onclick="play('tonsi')">▶</div>
+					</div>
+					<p class="dict-etymology">From Mandarin <a href="https://en.wiktionary.org/wiki/%E5%90%8C%E5%BF%97#Chinese">同志 tóngzhì</a> ‘comrade (same will/purpose); LGBT+’</p>
 				</div>
 			</details>
 			<details class="word" id="tu">
